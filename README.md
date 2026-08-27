@@ -9,8 +9,8 @@ This page is a hands-on guide for people who own the hardware: how to perform
 the gesture, how to tell it is working before it fires, and why it sometimes
 does not.
 
-- **Device:** Work Louder × OpenAI Codex Micro ($230 macropad, launched
-  2026-07-15)
+- **Device:** [Work Louder × OpenAI Codex Micro](https://openai.com/supply/co-lab/work-louder/)
+  ($230 macropad, launched 2026-07-15 — [product page](https://worklouder.cc/codex-micro))
 - **Where to do it:** in a conversation, with the message box on screen
 - **Gesture:** hold the analog stick out and circle it steadily, about two turns
   inside six seconds
@@ -18,9 +18,9 @@ does not.
 - **Officially documented?** No. It appears nowhere in
   [OpenAI's Codex Micro documentation](https://learn.chatgpt.com/docs/features/codex-micro).
 
-> **The hint was in the launch video, where the analog stick is called "a great
-> fidget toy while you're waiting for Codex to complete a task".** That is what
-> made it click.
+> **They told us in the [launch video](https://www.youtube.com/watch?v=m8uUUUsMD3Y).**
+> The analog stick, they said, is "a great fidget toy while you're waiting for
+> Codex to complete a task". That was the hint.
 
 ---
 
@@ -161,10 +161,11 @@ gesture is a separate, undocumented behaviour layered on the same input.
 ---
 
 ## Timeline
+
 | Date (UTC) | Commit | What happened |
 |---|---|---|
 | **2026-07-15** | — | The Codex Micro goes on sale. |
-| **2026-07-17** | *(private working repo)* | Hit by accident. Something kept taking over the display while I was updating a [Space Invaders port for Starbound](https://steamcommunity.com/sharedfiles/filedetails/?id=3728262023), so I pinned down what set it off — the rotation building up, the "Keep circling" HUD, and the games were observed. |
+| **2026-07-17** | *(private working repo)* | Hit by accident. Something kept taking over the display while I was updating a [Space Invaders port for Starbound](https://steamcommunity.com/sharedfiles/filedetails/?id=3728262023), so I pinned down what set it off — the rotation building up, the "Keep circling" HUD — and the games were observed. |
 | **2026-07-26 09:47** | [`039e11e`](https://github.com/klack/codex-micro-easter-egg/commit/039e11e1f6) → [`fd6ec20`](https://github.com/klack/codex-micro-easter-egg/commit/fd6ec2039d) | The instructions go up here, in public. |
 | **2026-07-28 10:06** | — | [Tibor Blaho posts his Codex Micro first impressions](https://www.linkedin.com/posts/tiborblaho_it-took-a-while-but-my-codex-micro-silent-activity-7487810678922264576-AMWW) and ends with: *"Fun fact - if you keep circling the analog stick, it starts one of the built-in minigames in the ChatGPT desktop app."* Found independently. |
 | **2026-07-29 17:00** | [`241b2a5`](https://github.com/klack/codex-micro-easter-egg/commit/241b2a53c3) | Taken back down — "Archive Codex Micro Easter Egg instructions". |
